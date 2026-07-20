@@ -281,7 +281,7 @@ function Index() {
                   <span className="text-xs tabular-nums text-muted-foreground">{edu.date}</span>
                 </div>
                 <p className="mt-0.5 text-sm text-muted-foreground">{edu.degree}</p>
-                {edu.honors && (
+                {"honors" in edu && edu.honors && (
                   <p className="mt-1 text-sm italic text-foreground/70">{edu.honors}</p>
                 )}
               </div>
